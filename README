@@ -1,0 +1,7 @@
+Simple SDL touchscreen PIN entry tool for raspberry pi.
+
+Currently works with Raspberry pi zero w with red/green leds on GPIO 20/21.
+You may need to adjust the gpio pin numbers in leds.c
+
+Create a /etc/keypad/codes file with "name:pin" entries for all valid PINs. You should make this root 0400.
+The tool must be run as root or with privleges for /dev/console, /etc/keypad/codes, and the /dev/mem.
