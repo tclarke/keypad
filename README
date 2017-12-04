@@ -5,3 +5,6 @@ You may need to adjust the gpio pin numbers in leds.c
 
 Create a /etc/keypad/codes file with "name:pin" entries for all valid PINs. You should make this root 0400.
 The tool must be run as root or with privleges for /dev/console, /etc/keypad/codes, and the /dev/mem.
+
+
+This uses the GUI Slice library. https://github.com/ImpulseAdventure/GUIslice
